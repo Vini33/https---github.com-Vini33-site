@@ -16,6 +16,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    height: 100vh;
+}
 header{
     height: 100px;
     background-color: #000000;
@@ -23,6 +26,8 @@ header{
 }
 main{
     background-color: #01A5B1;
+    text-align: center;
+    padding-bottom: 10%;
 }
 header > h1{
     display: inline-block;
@@ -66,8 +71,7 @@ footer{
     background-position: 45% 20%;
     background-size: cover;
     top: 0px; left: 0px;
-    position: absolute;
-    background-color: #000000;
+    position: relative;
     backface-visibility: hidden;
     transform: rotateX(0deg);
     transition: .6s;
@@ -90,10 +94,16 @@ footer{
     width: 100%; height: 100%;
     position: absolute;
     top: 0px; left: 0px;
-    background-color: #000000;
+    background-color: #AABCD0;
     backface-visibility: hidden;
     transform: rotateX(180deg);
     transition: .6s;
     color: white;
     text-align: center;
+}
+.back > p{
+    font-family: var(--font2);
+}
+footer > p{
+    font-family: var(--font1);
 }
