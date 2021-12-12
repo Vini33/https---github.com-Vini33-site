@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400&display=swap');
+/*cores: #000000 #131F2F #01A5B1 #AABCD0 #FFFFFF
+         segunda cores: #000000 #131F2F #3A89FF #F4F3EE #FFFFFF
+
+        */
+
+:root{
+    --font1: 'Passion One', cursive;
+    --font2:'Sriracha', cursive;
+    --font3: 'Redacted Script',cursive
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100px;
+    background-color: #000000;
+    text-align: center;
+}
+main{
+    background-color: #01A5B1;
+}
+header > h1{
+    display: inline-block;
+    font-family: var(--font1);
+    width: 100px;
+    font-size: 65px;
+    color: #01A5B1;
+}
+header > p{
+    font-family: var(--font1);
+    display: inline;
+    color: white;
+}
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+section{
+    padding-top: 45vh;
+    padding-bottom: 45vh;
+    padding-left: 30px;
+    font-family: var(--font2);
+}
+section.imagem{
+
+}
+section.img01{
+    background-image: url('../imagem/benCavalo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.img02{
+    background-image: url('../imagem/benFlor.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+section.normal{
+
+}
