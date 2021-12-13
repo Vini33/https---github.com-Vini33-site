@@ -23,9 +23,19 @@ header{
 }
 html, body{
     height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-flow: column;
+}
+/*assim nao fica espaco entre a altura da tela, caso a imagem seja pequena*/
+body > main{
+    flex-grow: 1;
+    flex-basis: auto;
 }
 main{
+    position: relative;
     background-color: #01A5B1;
+    padding-bottom: 15px;
 }
 
 header > span > h1{
@@ -57,6 +67,7 @@ nav > a{
     color: #fffefe;
     transition: .5s;
     font-weight: 600;
+    border-radius: 10px;
 }
 nav > a:hover{
     background-color: #016e75;
@@ -74,4 +85,8 @@ footer > p{
 }
 footer > p > a{
     color: white;
+}
+/*imagem*/
+img{
+    margin: 5px;
 }
