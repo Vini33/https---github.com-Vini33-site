@@ -4,19 +4,87 @@
     font-family: 'neve';
     src: url('../letras/snowkybrush.ttf') format("truetype");
 }
+@font-face {
+    font-family: 'natal';
+    src: url('../letras/lpsnowflake.ttf') format("truetype");
+}
+
 main, div, section{
     display: inline-flex;
     text-align: center;
     justify-content: center;/*alinhar usando com o flex*/
 }
 
-div{
-    height: 30px;
-    padding: 10px;
-    background-color: white;
-}
 div > h1 {
     font-size: 2em;
     font-family: 'neve', Times;
     color: red;
+}
+@keyframes anim-strela {
+    from{
+        transform: translateY(0px);
+    }to{
+        transform: translateY(700px);
+    }
+}
+.estrela{
+    position: absolute;
+    float: left;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 10px 190px white,
+    40px 100px white,
+    80px 300px white,
+    160px 260px white,
+    320px 300px white,
+    640px 150px white,
+    1000px 30px white,
+    1200px 60px white,
+    1250px 40px white,
+    900px 200px white,
+    800px 180px white,
+    700px 90px white,
+    600px -30px white,
+    400px -50px white,
+    300px 100px white,
+    200px 95px white,
+    250px 85px white,
+    450px 65px white,
+    650px 45px white,
+    550px 480px white,
+    750px 550px white;
+    animation: anim-strela 3s linear infinite;
+}
+.estrela::after{
+    content: " ";
+    position: absolute;
+    float: left;
+    top: -700px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    box-shadow: 10px 190px white,
+    40px 100px white,
+    80px 300px white,
+    160px 260px white,
+    320px 300px white,
+    640px 150px white,
+    1000px 30px white,
+    1200px 60px white,
+    1250px 40px white,
+    900px 200px white,
+    800px 180px white,
+    700px 90px white,
+    600px -30px white,
+    400px -50px white,
+    300px 100px white,
+    200px 95px white,
+    250px 85px white,
+    450px 65px white,
+    650px 45px white,
+    550px 480px white,
+    750px 550px white;
+    /*animation: anim-strela 2s linear infinite;*/
 }
