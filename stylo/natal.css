@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'neve';
+    src: url('../letras/snowkybrush.ttf') format("truetype");
+}
+main, div, section{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;/*alinhar usando com o flex*/
+}
+
+div{
+    height: 30px;
+    padding: 10px;
+    background-color: white;
+}
+div > h1 {
+    font-size: 2em;
+    font-family: 'neve', Times;
+    color: red;
+}
