@@ -9,14 +9,16 @@
     src: url('../letras/lpsnowflake.ttf') format("truetype");
 }
 
-main, div, section{
-    display: inline-flex;
+main{
+    display: block;
     text-align: center;
     justify-content: center;/*alinhar usando com o flex*/
 }
-
+div{
+    background-color: white;
+}
 div > h1 {
-    font-size: 2em;
+    font-size: 200%;
     font-family: 'neve', Times;
     color: red;
 }
@@ -24,7 +26,7 @@ div > h1 {
     from{
         transform: translateY(0px);
     }to{
-        transform: translateY(700px);
+        transform: translateY(900px);
     }
 }
 .estrela{
@@ -61,7 +63,7 @@ div > h1 {
     content: " ";
     position: absolute;
     float: left;
-    top: -700px;
+    top: -900px;
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -86,5 +88,4 @@ div > h1 {
     650px 45px white,
     550px 480px white,
     750px 550px white;
-    /*animation: anim-strela 2s linear infinite;*/
 }
