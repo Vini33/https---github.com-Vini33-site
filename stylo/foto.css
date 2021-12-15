@@ -16,37 +16,7 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    height: 100vh;
-}
-header{
-    display: block;
-    height: 110px;
-    background-color: #000000;
-    text-align: center;
-}
-main{
-    background-color: #01A5B1;
-    text-align: center;
-    padding-bottom: 10%;
-}
-header > span > h1{
-    display: inline-block;
-    font-family: var(--font1);
-    width: 100px;
-    font-size: 65px;
-    color: #01A5B1;
-}
-header > span > p{
-    font-family: var(--font1);
-    display: inline;
-    color: white;
-}
-footer{
-    background-color: #000000;
-    color: white;
-    text-align: center;
-}
+
 .imagem{
     display: inline-block;
     margin-left: 10px;
@@ -61,10 +31,10 @@ footer{
     transition: .6s;
 }
 .imagem:hover .front{
-    transform: rotateX(-180deg);
+    transform: rotateY(-180deg);
 }
 .imagem:hover .back{
-    transform: rotateX(0deg);
+    transform: rotateY(0deg);
 }
 .front{
     width: 100%;
@@ -74,7 +44,7 @@ footer{
     top: 0px; left: 0px;
     position: relative;
     backface-visibility: hidden;
-    transform: rotateX(0deg);
+    transform: rotateY(0deg);
     transition: .6s;
     border-radius: 10px;
 }
@@ -97,27 +67,11 @@ footer{
     top: 0px; left: 0px;
     background-color: #AABCD0;
     backface-visibility: hidden;
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
     transition: .6s;
     color: white;
     text-align: center;
 }
 .back > p{
     font-family: var(--font2);
-}
-footer > p{
-    font-family: var(--font1);
-}
-/*botoes*/
-nav > a{
-    text-decoration: none;
-    padding: 10px 10px;
-    background-color: #01A5B1;
-    font-family: var(--font2);
-    text-align: center;
-}
-nav{
-    display: inline-block;
-    text-align: center;
-    padding: 10px;
 }

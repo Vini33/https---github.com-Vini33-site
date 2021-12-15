@@ -11,8 +11,27 @@
     --font2:'Sriracha', cursive;
     --font3: 'Redacted Script',cursive
 }
-
-*{
-    margin: 0px;
-    padding: 0px;
+section{
+    text-align: center;
 }
+div > div {
+    width: 280px;
+    height: 300px;
+}
+.img{
+    display: inline-block;
+    width: 280px;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.432);
+    margin: 5px;
+    top: 0px;
+}
+.img01{
+    background-image: url('../imagem/benCavalo300.jpg');
+    background-position: center;
+}
+.img02{
+    background-image: url('https://live.staticflickr.com/65535/51747396416_244834d0ae.jpg');
+    background-position: center;
+}
+
