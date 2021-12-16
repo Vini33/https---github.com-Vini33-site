@@ -54,4 +54,7 @@ div > div {
     height: 380px;
     background-repeat: no-repeat;
 }
+.efeito::after{
+    height: 300px;
+}
 
