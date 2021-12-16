@@ -47,14 +47,11 @@ div > div {
 }
 .efeito{
     border-radius: 10px;
-    transition: 2s;
+    transition-duration: 2s;
 }
 .efeito:hover{
-    width: 280px;
+    /*-webkit-transform: scale(1.1);
+    transform: scale(1.4);*/
     height: 380px;
-    background-repeat: no-repeat;
-}
-.efeito::after{
-    height: 300px;
 }
 
