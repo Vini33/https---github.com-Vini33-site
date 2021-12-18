@@ -45,14 +45,56 @@ div > div {
 .img05{
     background-image: url('https://live.staticflickr.com/65535/51747407951_a44031e65b_w.jpg');
 }
+.img06{
+    background-image: url('https://live.staticflickr.com/65535/51752618247_fd2dd2b86a_w.jpg');
+}
+.img07{
+    background-image: url('https://live.staticflickr.com/65535/51753446471_4efa84a34b.jpg');
+}
+.img08{
+    background-image: url('https://live.staticflickr.com/65535/51752621052_43e8fee417.jpg');
+}
+.img09{
+    background-image: url('https://live.staticflickr.com/65535/51753446111_1b5fd26d40_w.jpg');
+}
+.img10{
+    background-image: url('https://live.staticflickr.com/65535/51754088684_a32340744d.jpg');
+}
+.img11{
+    background-image: url('https://live.staticflickr.com/65535/51754088689_8daf579464.jpg');
+}
+.img12{
+    background-image: url('https://live.staticflickr.com/65535/51754088644_c60aa9286a.jpg');
+}
+.img13{
+    background-image: url('https://live.staticflickr.com/65535/51752618192_67e025bf9d_n.jpg');
+}
+.img14{
+    background-image: url('https://live.staticflickr.com/65535/51753446226_afee4da357_w.jpg');
+}
+.oculta{
+    display: none;
+}
 .efeito{
     border-radius: 10px;
     transition-duration: 2s;
+    background-repeat: no-repeat;
 }
 .efeito:hover{
-    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
     /*-webkit-transform: scale(1.1);
     transform: scale(1.4);*/
-    height: 380px;
+    height: 450px;
+}
+button{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    font-size: 1.5em;
+}
+button:hover{
+    color: blue;
+    cursor: pointer;
 }
 
