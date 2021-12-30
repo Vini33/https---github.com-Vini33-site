@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.niver{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+main{
+    text-align: center;
+}
+.texto{
+    position: initial;
+}
+.fundo{
+    background-image: url('../imagem/confetti-4.gif');
+    background-position: center;
+}
+header,nav{
+    background-color: transparent;
+}
+header > span > p{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 20px black;
+}
+@media only screen and (max-width: 1140px){
+    .niver{
+        display: none;
+        top: 100px
+    }
+    
+};
+
+main > section > h1{
+    color: white;
+}
+
+.efeito{
+    font-family: 'Miltonian Tattoo',cursive;
+    color: white;
+    text-shadow: .1px 0px 2px black;
+    font-size: 2em;
+}
+
+/*.efeito::after{
+    content: '|';
+    margin-left: 2px;
+    opacity: 1;
+    color: black;
+    animation: pisca .3s linear infinite;
+    color: white;
+}
+
+@keyframes pisca {
+    from{
+        opacity: 1;
+    }to{
+        opacity: 0;
+    }
+}
