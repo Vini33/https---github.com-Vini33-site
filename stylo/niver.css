@@ -4,10 +4,21 @@
     margin: 0px;
     padding: 0px;
 }
+h1{
+    font-family: 'Miltonian Tattoo',cursive;
+    color: white;
+}
+.natal > h1{
+    text-shadow: 0px 1px 2px black;
+}
 .niver{
     position: absolute;
     top: 0px;
     right: 0px;
+}
+.texto > p{
+    color: white;
+    text-shadow: 0px 1px 2px black;
 }
 main{
     text-align: center;
