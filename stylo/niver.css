@@ -20,8 +20,12 @@ h1{
     color: white;
     text-shadow: 0px 1px 2px black;
 }
+main > section{
+    text-align: center;
+}
 main{
     text-align: center;
+    text-justify: center;
 }
 .texto{
     position: initial;
@@ -54,15 +58,28 @@ main > section > h1{
     color: white;
     text-shadow: .1px 0px 2px black;
     font-size: 2em;
+    animation: types 4s steps(40) 2s normal both;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
 }
 
-/*.efeito::after{
+.efeito::after{
     content: '|';
     margin-left: 2px;
     opacity: 1;
     color: black;
     animation: pisca .3s linear infinite;
     color: white;
+}
+
+@keyframes types {
+    from{
+        width: 0;
+    }to{
+        width: 18em;
+    }
 }
 
 @keyframes pisca {
