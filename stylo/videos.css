@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header,nav{
+    background-color: transparent;
+}
+
+.fundo{
+    background-image: url('../imagem/confetti-4.gif');
+    background-position: center;
+}
+div > header > span > p{
+    color: white;
+    text-shadow: 0px 1px 5px black;
+}
