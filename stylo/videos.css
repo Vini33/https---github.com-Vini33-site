@@ -11,7 +11,14 @@ header,nav{
     background-image: url('../imagem/confetti-4.gif');
     background-position: center;
 }
+.videos{
+    text-align: center;
+}
 div > header > span > p{
     color: white;
     text-shadow: 0px 1px 5px black;
+}
+video{
+    width: 400px;
+    height: 350px;
 }
