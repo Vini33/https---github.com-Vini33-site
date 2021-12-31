@@ -19,17 +19,17 @@ h1{
 .texto > p{
     color: white;
     text-shadow: 0px 1px 2px black;
+    font-size: 1.5em;
 }
 main > section{
     text-align: center;
+    justify-content: center;
 }
 main{
     text-align: center;
     text-justify: center;
 }
-.texto{
-    position: initial;
-}
+
 .fundo{
     background-image: url('../imagem/confetti-4.gif');
     background-position: center;
@@ -39,7 +39,7 @@ header,nav{
 }
 header > span > p{
     color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 20px black;
+    text-shadow: 0px 1px 2px black;
 }
 @media only screen and (max-width: 1140px){
     .niver{
@@ -51,41 +51,29 @@ header > span > p{
 
 main > section > h1{
     color: white;
+    display: block;
+    width: 100%;
+    margin-left: 100px;
 }
 
 .efeito{
     font-family: 'Miltonian Tattoo',cursive;
-    color: white;
     text-shadow: .1px 0px 2px black;
     font-size: 2em;
     animation: types 4s steps(40) 2s normal both;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    margin: auto;
+    width: 100%;
 }
 
-.efeito::after{
-    content: '|';
-    margin-left: 2px;
-    opacity: 1;
-    color: black;
-    animation: pisca .3s linear infinite;
-    color: white;
-}
 
 @keyframes types {
     from{
         width: 0;
+        margin: auto;
     }to{
-        width: 18em;
-    }
-}
-
-@keyframes pisca {
-    from{
-        opacity: 1;
-    }to{
-        opacity: 0;
+        width: 100%;
+        margin: auto;
     }
 }
